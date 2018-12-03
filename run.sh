@@ -1,1 +1,2 @@
-cd jsonserver && npm run start && cd ../ && npm run dev
+npm run dev;
+cd jsonserver && npm run start;
