@@ -1,0 +1,19 @@
+
+> jsonserver@1.0.0 start /Users/yuliang/Documents/My/customer/jsonserver
+> json-server --watch db.json
+
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Done
+
+  Resources
+  http://localhost:3000/users
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+

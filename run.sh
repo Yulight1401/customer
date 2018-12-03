@@ -1,2 +1,2 @@
-nohup npm run dev &;
-cd jsonserver && nohup npm run start &;
+nohup npm run dev &
+cd jsonserver && npm run start
