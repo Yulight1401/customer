@@ -52,14 +52,14 @@ export default {
   },
   methods:{
     fetchUsers(){
-      this.$axios.get('http://localhost:3000/users')
+      this.$axios.get('http://119.29.224.170:3000/users')
       .then((response)=> {
           this.users = response.data;
       })
     },
     deleteUsers(id){
       console.log(id);
-      this.$axios.delete('http://localhost:3000/users/'+id)
+      this.$axios.delete('http://119.29.224.170:3000/users/'+id)
     },
     filterBy(users,filterInput){
      return users.filter(function(user){

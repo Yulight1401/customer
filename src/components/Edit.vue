@@ -40,7 +40,7 @@ export default {
   },
   methods:{
       fecthUsers(id){
-        this.$axios.get("http://localhost:3000/users/"+id)
+        this.$axios.get("http://119.29.224.170:3000/users/"+id)
           .then((response)=>{
               this.users=response.data;
           })
@@ -56,7 +56,7 @@ export default {
   				email:this.users.email
               }
               
-              this.$axios.put("http://localhost:3000/users/"+this.$route.params.id,updateUsers)
+              this.$axios.put("http://119.29.224.170:3000/users/"+this.$route.params.id,updateUsers)
   				.then((response)=>{
   					this.$router.push({path:"/",query:{alert:"用户信息添加成功!"}});
   				})

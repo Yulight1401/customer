@@ -50,7 +50,7 @@ export default {
   				email:this.users.email
               }
               
-              this.$axios.post("http://localhost:3000/users",newUsers)
+              this.$axios.post("http://119.29.224.170:3000/users",newUsers)
   				.then((response)=>{
   					this.$router.push({path:"/",query:{alert:"用户信息添加成功!"}});
   				})
